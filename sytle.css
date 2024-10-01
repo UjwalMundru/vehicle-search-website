@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('../images/your-background-image.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2em;
+}
+
+h1, h2 {
+  margin: 0.5em 0;
+  text-align: center;
+  text-size-adjust: 10xl;
+}
+
+#search {
+  text-align: center;
+  margin: 2em auto;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+form label, form input {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#results {
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 2em auto;
+  text-align: center;
+}
